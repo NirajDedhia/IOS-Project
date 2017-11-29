@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22002DF91EC0EB960033D76C /* RecruitersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002DF71EC0EB960033D76C /* RecruitersTVC.swift */; };
+		22002DFA1EC0EB960033D76C /* RecruiterDetailGroupedTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002DF81EC0EB960033D76C /* RecruiterDetailGroupedTableVC.swift */; };
+		22002DFE1EC0F74E0033D76C /* JobDetailGroupedTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002DFD1EC0F74E0033D76C /* JobDetailGroupedTableVC.swift */; };
+		22002E001EC0FBC30033D76C /* JobsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002DFF1EC0FBC30033D76C /* JobsTVC.swift */; };
+		22002E041EC1006D0033D76C /* CompanyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002E031EC1006D0033D76C /* CompanyTVC.swift */; };
+		22002E061EC103860033D76C /* CompanyDetailGroupedTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22002E051EC103860033D76C /* CompanyDetailGroupedTableVC.swift */; };
+		221FA2F31EC1163C00AAFD38 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FA2F21EC1163C00AAFD38 /* Job.swift */; };
+		221FA2F51EC1166500AAFD38 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FA2F41EC1166500AAFD38 /* Company.swift */; };
+		221FA2F71EC116AC00AAFD38 /* Recruiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FA2F61EC116AC00AAFD38 /* Recruiter.swift */; };
+		221FA2FA1EC1261500AAFD38 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221FA2F91EC1261500AAFD38 /* MessageUI.framework */; };
+		228832E71EC20953005F2B0C /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = 228832E51EC20953005F2B0C /* 33-cabinet.png */; };
+		228832E81EC20953005F2B0C /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 228832E61EC20953005F2B0C /* eye.png */; };
+		228832F01EC20CB6005F2B0C /* job.png in Resources */ = {isa = PBXBuildFile; fileRef = 228832EF1EC20CB6005F2B0C /* job.png */; };
+		22BC8A041EC0D9A800233420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC8A031EC0D9A800233420 /* AppDelegate.swift */; };
+		22BC8A0B1EC0D9A800233420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BC8A091EC0D9A800233420 /* Main.storyboard */; };
+		22BC8A0D1EC0D9A800233420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BC8A0C1EC0D9A800233420 /* Assets.xcassets */; };
+		22BC8A101EC0D9A800233420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BC8A0E1EC0D9A800233420 /* LaunchScreen.storyboard */; };
+		3F4684E71EC24EF700C95DCB /* favoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4684E61EC24EF700C95DCB /* favoriteVC.swift */; };
+		3F4684E91EC2587200C95DCB /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4684E81EC2587200C95DCB /* InitialViewController.swift */; };
+		3F4684EB1EC271A200C95DCB /* js2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4684EA1EC271A200C95DCB /* js2.png */; };
+		3F4684EF1EC2751F00C95DCB /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4684EC1EC2751F00C95DCB /* linkedin.png */; };
+		3F4684F01EC2751F00C95DCB /* rit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4684ED1EC2751F00C95DCB /* rit.jpg */; };
+		3F4684F11EC2751F00C95DCB /* indeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4684EE1EC2751F00C95DCB /* indeed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22002DF71EC0EB960033D76C /* RecruitersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruitersTVC.swift; sourceTree = "<group>"; };
+		22002DF81EC0EB960033D76C /* RecruiterDetailGroupedTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruiterDetailGroupedTableVC.swift; sourceTree = "<group>"; };
+		22002DFD1EC0F74E0033D76C /* JobDetailGroupedTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailGroupedTableVC.swift; sourceTree = "<group>"; };
+		22002DFF1EC0FBC30033D76C /* JobsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTVC.swift; sourceTree = "<group>"; };
+		22002E031EC1006D0033D76C /* CompanyTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyTVC.swift; sourceTree = "<group>"; };
+		22002E051EC103860033D76C /* CompanyDetailGroupedTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyDetailGroupedTableVC.swift; sourceTree = "<group>"; };
+		221FA2F21EC1163C00AAFD38 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		221FA2F41EC1166500AAFD38 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		221FA2F61EC116AC00AAFD38 /* Recruiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recruiter.swift; sourceTree = "<group>"; };
+		221FA2F91EC1261500AAFD38 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		228832E51EC20953005F2B0C /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
+		228832E61EC20953005F2B0C /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		228832EF1EC20CB6005F2B0C /* job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job.png; sourceTree = "<group>"; };
+		22BC8A001EC0D9A800233420 /* CareerConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareerConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BC8A031EC0D9A800233420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22BC8A0A1EC0D9A800233420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22BC8A0C1EC0D9A800233420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22BC8A0F1EC0D9A800233420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22BC8A111EC0D9A800233420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4684E61EC24EF700C95DCB /* favoriteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteVC.swift; sourceTree = "<group>"; };
+		3F4684E81EC2587200C95DCB /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		3F4684EA1EC271A200C95DCB /* js2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = js2.png; sourceTree = "<group>"; };
+		3F4684EC1EC2751F00C95DCB /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
+		3F4684ED1EC2751F00C95DCB /* rit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rit.jpg; sourceTree = "<group>"; };
+		3F4684EE1EC2751F00C95DCB /* indeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indeed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BC89FD1EC0D9A800233420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221FA2FA1EC1261500AAFD38 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221FA2F81EC1261500AAFD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221FA2F91EC1261500AAFD38 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22BC89F71EC0D9A800233420 = {
+			isa = PBXGroup;
+			children = (
+				22BC8A021EC0D9A800233420 /* CareerConnect */,
+				22BC8A011EC0D9A800233420 /* Products */,
+				221FA2F81EC1261500AAFD38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22BC8A011EC0D9A800233420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BC8A001EC0D9A800233420 /* CareerConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BC8A021EC0D9A800233420 /* CareerConnect */ = {
+			isa = PBXGroup;
+			children = (
+				22BC8A191EC0D9CA00233420 /* ViewControllers */,
+				22BC8A181EC0D9BF00233420 /* Resources */,
+				22BC8A171EC0D9B700233420 /* Models */,
+				22BC8A031EC0D9A800233420 /* AppDelegate.swift */,
+				22BC8A091EC0D9A800233420 /* Main.storyboard */,
+				22BC8A0C1EC0D9A800233420 /* Assets.xcassets */,
+				22BC8A0E1EC0D9A800233420 /* LaunchScreen.storyboard */,
+				22BC8A111EC0D9A800233420 /* Info.plist */,
+			);
+			path = CareerConnect;
+			sourceTree = "<group>";
+		};
+		22BC8A171EC0D9B700233420 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				221FA2F21EC1163C00AAFD38 /* Job.swift */,
+				221FA2F41EC1166500AAFD38 /* Company.swift */,
+				221FA2F61EC116AC00AAFD38 /* Recruiter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		22BC8A181EC0D9BF00233420 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F4684EC1EC2751F00C95DCB /* linkedin.png */,
+				3F4684ED1EC2751F00C95DCB /* rit.jpg */,
+				3F4684EE1EC2751F00C95DCB /* indeed.png */,
+				3F4684EA1EC271A200C95DCB /* js2.png */,
+				228832EF1EC20CB6005F2B0C /* job.png */,
+				228832E51EC20953005F2B0C /* 33-cabinet.png */,
+				228832E61EC20953005F2B0C /* eye.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		22BC8A191EC0D9CA00233420 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				22002DF71EC0EB960033D76C /* RecruitersTVC.swift */,
+				22002DF81EC0EB960033D76C /* RecruiterDetailGroupedTableVC.swift */,
+				22002DFF1EC0FBC30033D76C /* JobsTVC.swift */,
+				22002DFD1EC0F74E0033D76C /* JobDetailGroupedTableVC.swift */,
+				22002E031EC1006D0033D76C /* CompanyTVC.swift */,
+				22002E051EC103860033D76C /* CompanyDetailGroupedTableVC.swift */,
+				3F4684E61EC24EF700C95DCB /* favoriteVC.swift */,
+				3F4684E81EC2587200C95DCB /* InitialViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BC89FF1EC0D9A800233420 /* CareerConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BC8A141EC0D9A800233420 /* Build configuration list for PBXNativeTarget "CareerConnect" */;
+			buildPhases = (
+				22BC89FC1EC0D9A800233420 /* Sources */,
+				22BC89FD1EC0D9A800233420 /* Frameworks */,
+				22BC89FE1EC0D9A800233420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareerConnect;
+			productName = CareerConnect;
+			productReference = 22BC8A001EC0D9A800233420 /* CareerConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BC89F81EC0D9A800233420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Niraj Dedhia (RIT Student)";
+				TargetAttributes = {
+					22BC89FF1EC0D9A800233420 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7X3FNML4AZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22BC89FB1EC0D9A800233420 /* Build configuration list for PBXProject "CareerConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BC89F71EC0D9A800233420;
+			productRefGroup = 22BC8A011EC0D9A800233420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BC89FF1EC0D9A800233420 /* CareerConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BC89FE1EC0D9A800233420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4684F11EC2751F00C95DCB /* indeed.png in Resources */,
+				22BC8A101EC0D9A800233420 /* LaunchScreen.storyboard in Resources */,
+				22BC8A0D1EC0D9A800233420 /* Assets.xcassets in Resources */,
+				3F4684EB1EC271A200C95DCB /* js2.png in Resources */,
+				228832E71EC20953005F2B0C /* 33-cabinet.png in Resources */,
+				228832F01EC20CB6005F2B0C /* job.png in Resources */,
+				3F4684EF1EC2751F00C95DCB /* linkedin.png in Resources */,
+				3F4684F01EC2751F00C95DCB /* rit.jpg in Resources */,
+				22BC8A0B1EC0D9A800233420 /* Main.storyboard in Resources */,
+				228832E81EC20953005F2B0C /* eye.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BC89FC1EC0D9A800233420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22002DF91EC0EB960033D76C /* RecruitersTVC.swift in Sources */,
+				22002E001EC0FBC30033D76C /* JobsTVC.swift in Sources */,
+				22002DFA1EC0EB960033D76C /* RecruiterDetailGroupedTableVC.swift in Sources */,
+				3F4684E91EC2587200C95DCB /* InitialViewController.swift in Sources */,
+				22002DFE1EC0F74E0033D76C /* JobDetailGroupedTableVC.swift in Sources */,
+				22002E061EC103860033D76C /* CompanyDetailGroupedTableVC.swift in Sources */,
+				22BC8A041EC0D9A800233420 /* AppDelegate.swift in Sources */,
+				221FA2F71EC116AC00AAFD38 /* Recruiter.swift in Sources */,
+				3F4684E71EC24EF700C95DCB /* favoriteVC.swift in Sources */,
+				221FA2F51EC1166500AAFD38 /* Company.swift in Sources */,
+				22002E041EC1006D0033D76C /* CompanyTVC.swift in Sources */,
+				221FA2F31EC1163C00AAFD38 /* Job.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22BC8A091EC0D9A800233420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BC8A0A1EC0D9A800233420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22BC8A0E1EC0D9A800233420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BC8A0F1EC0D9A800233420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22BC8A121EC0D9A800233420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22BC8A131EC0D9A800233420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BC8A151EC0D9A800233420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X3FNML4AZ;
+				INFOPLIST_FILE = CareerConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rit.CareerConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22BC8A161EC0D9A800233420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X3FNML4AZ;
+				INFOPLIST_FILE = CareerConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rit.CareerConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BC89FB1EC0D9A800233420 /* Build configuration list for PBXProject "CareerConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BC8A121EC0D9A800233420 /* Debug */,
+				22BC8A131EC0D9A800233420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BC8A141EC0D9A800233420 /* Build configuration list for PBXNativeTarget "CareerConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BC8A151EC0D9A800233420 /* Debug */,
+				22BC8A161EC0D9A800233420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BC89F81EC0D9A800233420 /* Project object */;
+}
